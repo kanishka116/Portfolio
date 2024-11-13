@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67a4bbfd86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.postimg.cc/5tNPRPP6/Screenshot-2024-09-09-173117.png" class="logo" height="50px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <!--img src="https://i.postimg.cc/pmPdsxq1/moon.png" id ="moonicon" -->
+            </nav>
+            <div class="header-text">
+                <p>Machine Learning Enthusiast and FrontEnd Web Developer</p>
+                <h1><span id="blue">Hello</span>, I'm <span id="ht"><span id="blue">Kanishka</Span> Sharma</span><br>From New Delhi, India.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------About------------------------------------------ -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    
+                    <img src="https://i.postimg.cc/63Prxjfb/Whats-App-Image-2024-09-09-at-10-55-03.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I'm Kanishka Sharma, a Machine Learning enthusiast with a background in computer science engineering. I'm passionate about using data to solve real-world problems and create impactful solutions. I have experience in machine learning, data analysis, web development, and IoT.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding </span><br>C++, C, Python, MySQL</li>
+                            <li><span>Web Technologies</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Technologies</span><br>Machine Learning, OpenCV</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.tech(CSE) From Inderprastha Enginneering College.</li>
+                            <li><span>2018-2020</span><br>Intermediate(Science), CBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------Skills---------------------------- -->
+
+
+    <div id="Skill">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Bringing data to life with machine learning – adept in Python and tools to tackle real-world problems.</p>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Web Development</h2>
+                    <p>Turning static web pages into interactive experiences – exploring the world of front-end development.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<!-- -----------------------------Project----------------------------- -->
+
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="https://i.postimg.cc/MKbKcMLH/images.png">
+                    <div class="layer">
+                        <h3>WakeUpWatch - Drowsiness Detection System</h3>
+                        <h3>Domain - Machine Learning </h3>
+                        <p>Developed a drowsiness detection system using Python, successfully integrated computer vision and machine learning algorithms to identify signs of driver fatigue.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://i.postimg.cc/x8XMfG5X/six-hands-human-gestures-24877-75226.avif">
+                    <div class="layer">
+                        <h3>Sign Language Detection</h3>
+                        <h3>Domain - Machine Learning </h3>
+                        <p>Designed and implemented a sign language recognition system using Python, contributing to breaking communication barriers for the hearing-impaired.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://i.postimg.cc/tC2JSnNf/Building-A-Voice-Assistant.png">
+                    <div class="layer">
+                        <h3>Voice Assistant</h3>
+                        <h3>Tool and technology - Python</h3>
+                        <p>Created a voice-based assistant using Python capable of performing basic tasks, including searching   on Wikipedia, sending mail, playing music etc. </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------Contact---------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kanishka.sharma2510@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9650245006</p>
+                    <div class="social-icons">
+                        <!--a href="linkedin.com/in/kanishka-sharma-376b2b239"><i class="fa-brands fa-linkedin"></i></a-->
+                        <a href="https://linkedin.com/in/kanishka-sharma-376b2b239"><i class="fab fa-linkedin"></i></a>
+
+
+                        <a href="#"><i class="fa-solid fa-globe"></i></a>
+                        <a href="https://github.com/kanishka116"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1YNXY4NORs5ZmXAQCYq9SWp6YZgKBGuaO/view?usp=drivesdk" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <div class= "contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type= "text" name= "Name" placeholder= "Your Name" required>
+                            <input type= "email" name= "Email" placeholder= "Your Email" required>
+                            <textarea name= "Message" rows="4" placeholder= "Your Message"></textarea>
+                            <button type= "submit" class="btn btn2" >Submit</button>
+                            <span id="msg"></span>
+                        </form>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Kanishka.</p>
+            
+        </div>
+    </div>
+
+
+
+
+<!-- -----------------------------------Script------------------------------ -->
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName ("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); I
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxT4xWoc22OqKPAEgEiLbmOB4q_ts_xd51q61HHJl2VzZN4BTqRfssvjDxB67tYqb9k/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully."
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+
+        
+
+      </script>
+   
+</body>
+</html>
